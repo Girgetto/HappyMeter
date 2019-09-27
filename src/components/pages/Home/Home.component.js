@@ -1,8 +1,10 @@
 import React from 'react';
+import { Dashboard } from '../../pages';
 
-const Home = ({ className, user }) => (
+const Home = ({ className }) => (
   <div className={className}>
-    {user.name}
+    Hola
+    <Dashboard />
   </div>
 );
 

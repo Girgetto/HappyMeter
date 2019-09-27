@@ -5,6 +5,7 @@ import {
   SuperSignUp,
   Home,
 } from './components/pages';
+import { MainLayout } from './components/layout';
 
 
 const Routes = (
@@ -12,7 +13,11 @@ const Routes = (
     <Switch>
       <Route path="/" exact component={() => <SuperLogin />} />
       <Route path="/signup" exact component={() => <SuperSignUp />} />
-      <Route path="/home" exact component={() => <Home />} />
+      <Route
+        path="/home"
+        exact
+        component={() => (<MainLayout><Home /></MainLayout>)}
+      />
     </Switch>
   </div>
 );
