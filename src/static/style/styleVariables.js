@@ -11,5 +11,6 @@ export const secondary_alternative = '#2F4858';
 
 // font familty
 
+export const font_primary = '#fff';
 
 // MEDIA QUERIES//

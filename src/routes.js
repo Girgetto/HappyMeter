@@ -4,13 +4,18 @@ import {
   SuperLogin,
   Home,
 } from './components/pages';
+import { MainLayout } from './components/layout';
 
 
 const Routes = (
   <div>
     <Switch>
       <Route path="/" exact component={() => <SuperLogin />} />
-      <Route path="/home" exact component={() => <Home />} />
+      <Route
+        path="/home"
+        exact
+        component={() => (<MainLayout><Home /></MainLayout>)}
+      />
     </Switch>
   </div>
 );
