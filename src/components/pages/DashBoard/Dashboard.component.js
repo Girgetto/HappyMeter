@@ -5,7 +5,7 @@ import './graph.css';
 const Dashboard = ({ user: { project } }) => (
   <div>
     <div className="graph">
-      {project && <Graph users={project.users} />}
+      {project && <Graph />}
     </div>
 
   </div>

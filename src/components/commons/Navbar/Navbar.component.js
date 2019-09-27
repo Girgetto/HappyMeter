@@ -3,9 +3,9 @@ import projectsJson from './projects.json';
 
 const renderProjects = (projects, setProject) =>
   projects.map(project => (
-    <div key={project.id} className="project" onClick={() => setProject(project)}>
+    <a key={project.id} className="project" onClick={() => setProject(project)}>
       {project.name}
-    </div>
+    </a>
   ));
 
 const Navbar = ({ className, user, setProject }) => (
