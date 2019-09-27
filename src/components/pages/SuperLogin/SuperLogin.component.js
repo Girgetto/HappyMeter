@@ -1,7 +1,7 @@
 
 import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
-import { MDBContainer, MDBRow, MDBCol, MDBBtn } from 'mdbreact';
+import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
 import '../test.css';
 
 
@@ -12,8 +12,8 @@ const SuperLogin = ({ login }) => {
     <div className="centerer">
       <MDBContainer >
         <MDBRow>
-          <MDBCol md="3" />
-          <MDBCol md="6">
+          <MDBCol md="4" />
+          <MDBCol md="4">
             <form onSubmit={e => e.preventDefault()} className="test">
               <p className="h4 text-center mb-4 test grande">Sign in</p>
               <label htmlFor="defaultFormLoginEmailEx" className="gray-text test">
@@ -42,7 +42,7 @@ const SuperLogin = ({ login }) => {
               </div>
             </form>
           </MDBCol>
-          <MDBCol md="3" />
+          <MDBCol md="4" />
         </MDBRow>
       </MDBContainer>
     </div>

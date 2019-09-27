@@ -8,8 +8,8 @@ const SuperSignUp = () => (
   <div className="centerer">
     <MDBContainer >
       <MDBRow>
-        <MDBCol md="3" />
-        <MDBCol md="6">
+        <MDBCol md="4" />
+        <MDBCol md="4">
           <form className="test">
             <p className="h4 text-center mb-4 test grande">Sign up</p>
             <label htmlFor="defaultFormLoginEmailEx" className="gray-text test">
@@ -55,7 +55,7 @@ const SuperSignUp = () => (
             </div>
           </form>
         </MDBCol>
-        <MDBCol md="3" />
+        <MDBCol md="4" />
       </MDBRow>
     </MDBContainer>
   </div>
