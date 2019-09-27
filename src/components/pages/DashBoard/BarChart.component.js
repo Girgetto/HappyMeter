@@ -9,11 +9,11 @@ const Graph = () => (<Chart
   chartType="Bar"
   loader={<div>Loading Chart</div>}
   data={[
-    ['Year', '😃', '🙂', '😕', '😖'],
-    ['2014', 1000, 400, 304, 789],
-    ['2015', 1170, 377, 1000, 460],
-    ['2016', 660, 377, 1200, 420],
-    ['2017', 1030, 540, 660, 377],
+    ['Year', '😃', '🙂', '😕', '😖', '😊'],
+    ['2014', Math.random(), Math.random(), Math.random(), Math.random(), Math.random()],
+    ['2015', Math.random(), Math.random(), Math.random(), Math.random(), Math.random()],
+    ['2016', Math.random(), Math.random(), Math.random(), Math.random(), Math.random()],
+    ['2017', Math.random(), Math.random(), Math.random(), Math.random(), Math.random()],
   ]}
   options={{
     // Material design options
