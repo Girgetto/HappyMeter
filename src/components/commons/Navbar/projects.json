@@ -9,5 +9,8 @@
       {"id": 1, "name": "Dani", "value": "very happy"},
       {"id": 2, "name": "Giorgio", "value": "very happy"}
     ]
-  }
+  },
+  {"id": 5, "name": "Horizon"},
+  {"id": 6, "name": "Lime"},
+  {"id": 7, "name": "One Sky"}
 ]
