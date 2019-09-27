@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import Login from './Login.styled';
+import SuperLogin from './SuperLogin.component';
 import { login } from '../../../state/User/actionCreators';
 
 const mapStateToProps = () => ({});
@@ -11,4 +11,4 @@ const mapDispatchToProps = dispatch => ({
 export default connect(
   mapStateToProps,
   mapDispatchToProps,
-)(Login);
+)(SuperLogin);
