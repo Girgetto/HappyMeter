@@ -9,7 +9,7 @@ const Graph = () => (<Chart
   chartType="Bar"
   loader={<div>Loading Chart</div>}
   data={[
-    ['Year', '😃', '🙂', '😕', '😖', '😊'],
+    ['Year', '😊', '😃', '🙂', '😕', '😖'],
     ['2014', Math.random(), Math.random(), Math.random(), Math.random(), Math.random()],
     ['2015', Math.random(), Math.random(), Math.random(), Math.random(), Math.random()],
     ['2016', Math.random(), Math.random(), Math.random(), Math.random(), Math.random()],
@@ -17,7 +17,7 @@ const Graph = () => (<Chart
   ]}
   options={{
     // Material design options
-    colors: ['#00B4B0'],
+    colors: ['#00ff00', '#bfff00', '#ff8000', '#ff4000', '#ff0000'],
     chart: {
       title: 'Overall team happiness',
       subtitle: 'Feedback received in the last 4 years',
