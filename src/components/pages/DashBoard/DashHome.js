@@ -10,7 +10,7 @@ const instance = axios.create({
 });
 
 const message = {
-  message: 'Well done team',
+  message: 'Overall team satisfaction: 84%',
 };
 
 const slack = () =>

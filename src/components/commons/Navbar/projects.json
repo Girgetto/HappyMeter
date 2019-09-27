@@ -1,12 +1,13 @@
 [
-  { "id":1, "name": "Project 1"},
-  { "id":2, "name": "Project 2"},
-  { "id":3, "name": "Project 3"},
-  { "id":4, "name": "Project 4", 
-    "users": 
-    [
-      { "id":1, "name": "Dani", "value": "very happy"},
-      { "id":2, "name": "Giorgio", "value": "very happy"}
+  {"id": 1, "name": "Marsh Project"},
+  {"id": 2, "name": "Infinitas Learning"},
+  {"id": 3, "name": "HayMarket"},
+  {
+    "id": 4,
+    "name": "Hive",
+    "users": [
+      {"id": 1, "name": "Dani", "value": "very happy"},
+      {"id": 2, "name": "Giorgio", "value": "very happy"}
     ]
   }
 ]

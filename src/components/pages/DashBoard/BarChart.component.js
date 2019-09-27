@@ -17,6 +17,7 @@ const Graph = () => (<Chart
   ]}
   options={{
     // Material design options
+    colors: ['#00B4B0'],
     chart: {
       title: 'Overall team happiness',
       subtitle: 'Feedback received in the last 4 years',
