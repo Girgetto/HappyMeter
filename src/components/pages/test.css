@@ -2,7 +2,7 @@
 
 .test {
   font-family: 'Lato', sans-serif !important;
-  color: white;
+  color: #2f4858;
 }
 
 .grande {
@@ -13,25 +13,31 @@
   height: 100vh;
   display: flex;
   align-items: center;
-  background-color: #2f4858;
+  background-color: white;
 }
 
 .mini {
   font-size: 0.9em;
 }
 
+.card {
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  padding: 0.7rem;
+  width: 100%;
+}
+
 .bold {
   font-family: 'Lato', sans-serif !important;
-  color: white;
+  color: #008fa0;
   font-weight: bold;
-  color: white;
 }
 
 .buttonLogin {
   color: rgb(56, 56, 56);
   font-family: 'Lato', sans-serif !important;
   color: white;
-  background-color: #38fd9e;
+  background-color: #008fa0;
   width: 160px;
   height: 40px;
   border-radius: 10px;
@@ -41,13 +47,13 @@
 
 .buttonLogin:hover {
   color: white;
-  background-color: #008fa0;
-  transform: scale(1.1);
+  background-color: #38fd9e;
+  transform: scale(1.02);
 }
 
 .gray-text {
   font-family: 'Lato', sans-serif !important;
-  color: white;
+  color: #2f4858;
   font-size: 1em;
   display: block;
   padding-bottom: 7px;

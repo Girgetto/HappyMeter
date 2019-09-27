@@ -10,50 +10,52 @@ const SuperSignUp = () => (
       <MDBRow>
         <MDBCol md="4" />
         <MDBCol md="4">
-          <form className="test">
-            <p className="h4 text-center mb-4 test grande">Sign up</p>
-            <label htmlFor="defaultFormLoginEmailEx" className="gray-text test">
+          <div className="card">
+            <form className="test">
+              <p className="h4 text-center mb-4 test grande">Sign up</p>
+              <label htmlFor="defaultFormLoginEmailEx" className="gray-text test">
               Your name
-            </label>
-            <input
-              type="email"
-              id="defaultFormLoginEmailEx"
-              className="form-control"
-            />
-            <br />
-            <label htmlFor="defaultFormLoginEmailEx" className="gray-text test">
+              </label>
+              <input
+                type="email"
+                id="defaultFormLoginEmailEx"
+                className="form-control"
+              />
+              <br />
+              <label htmlFor="defaultFormLoginEmailEx" className="gray-text test">
               Your email
-            </label>
-            <input
-              type="email"
-              id="defaultFormLoginEmailEx"
-              className="form-control"
-            />
-            <br />
-            <label htmlFor="defaultFormLoginEmailEx" className="gray-text test">
+              </label>
+              <input
+                type="email"
+                id="defaultFormLoginEmailEx"
+                className="form-control"
+              />
+              <br />
+              <label htmlFor="defaultFormLoginEmailEx" className="gray-text test">
               Confirm your email
-            </label>
-            <input
-              type="email"
-              id="defaultFormLoginEmailEx"
-              className="form-control"
-            />
-            <br />
-            <label htmlFor="defaultFormLoginPasswordEx" className="gray-text test">
+              </label>
+              <input
+                type="email"
+                id="defaultFormLoginEmailEx"
+                className="form-control"
+              />
+              <br />
+              <label htmlFor="defaultFormLoginPasswordEx" className="gray-text test">
               Your password
-            </label>
-            <input
-              type="password"
-              id="defaultFormLoginPasswordEx"
-              className="form-control"
-            />
-            <div className="text-center mt-4">
-              <button className="buttonLogin">Register</button>
-            </div>
-            <div className="mini text-center mt-4 test">
-              <Link className="test" to="/">Already registered? <span className="bold">Log in!</span></Link>
-            </div>
-          </form>
+              </label>
+              <input
+                type="password"
+                id="defaultFormLoginPasswordEx"
+                className="form-control"
+              />
+              <div className="text-center mt-4">
+                <button className="buttonLogin">Register</button>
+              </div>
+              <div className="mini text-center mt-4 test">
+                <Link className="test" to="/">Already registered? <span className="bold">Log in!</span></Link>
+              </div>
+            </form>
+          </div>
         </MDBCol>
         <MDBCol md="4" />
       </MDBRow>
