@@ -9,7 +9,7 @@ const Dashboard = ({ user: { project } }) => (
   <div>
     {project && renderUsers(project.users)}
     <div className="graph">
-      <Graph />
+      {project && <Graph />}
     </div>
 
   </div>
