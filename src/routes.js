@@ -1,14 +1,14 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import {
-  Login,
+  SuperLogin,
 } from './components/pages';
 
 
 const Routes = (
   <div>
     <Switch>
-      <Route path="/" exact component={() => <Login />} />
+      <Route path="/" exact component={() => <SuperLogin />} />
     </Switch>
   </div>
 );
