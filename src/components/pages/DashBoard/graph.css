@@ -3,4 +3,52 @@
   justify-content: center;
   align-items: center;
   background-color: white;
+  padding-top: 150px;
+}
+
+.homecenter {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.header {
+  text-align: center;
+  font-family: 'Lato', sans-serif !important;
+  font-size: 5em;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.number {
+  margin-top: 50px;
+  margin-right: 100px;
+  text-align: center;
+  font-family: 'Lato', sans-serif !important;
+  font-size: 6em;
+  font-weight: bold;
+  color: green;
+}
+
+.buttonLogin {
+  color: rgb(56, 56, 56);
+  font-family: 'Lato', sans-serif !important;
+  color: white;
+  background-color: #008fa0;
+  width: 160px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  transition: all 0.4s ease-out 0s;
+  outline: none;
+}
+
+.butcenter {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
 }
