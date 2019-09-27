@@ -19,7 +19,7 @@ const slack = () =>
 
 const DashHome = () => (
   <div>
-    <h1 className="header">Overall happiness</h1>
+    <h1 className="header">Overall team happiness</h1>
     <div className="homecenter">
       <h1 className="number">84%</h1>
       <div>

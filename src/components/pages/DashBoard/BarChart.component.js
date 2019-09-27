@@ -18,7 +18,7 @@ const Graph = () => (<Chart
   options={{
     // Material design options
     chart: {
-      title: 'Overall happiness',
+      title: 'Overall team happiness',
       subtitle: 'Feedback received in the last 4 years',
     },
   }}

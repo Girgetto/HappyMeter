@@ -1,0 +1,9 @@
+.holi {
+  font-family: 'Lato', sans-serif !important;
+  font-size: 1.2em;
+  color: white;
+}
+
+.selected {
+  border-bottom: 3px solid #38fd9e !important;
+}

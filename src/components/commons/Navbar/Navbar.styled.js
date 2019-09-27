@@ -7,7 +7,7 @@ export default styled(Navbar).attrs({})`
   width: 15vw;
   background-color: ${colors.secondary_alternative};
   color: ${colors.font_primary};
-  padding: 2% 3%;
+  padding: 40px 20px 10px 40px;
   position: fixed;
   font-family: 'Lato', sans-serif ;
   font-size: 1.5em;
