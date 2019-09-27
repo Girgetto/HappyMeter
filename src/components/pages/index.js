@@ -1,5 +1,6 @@
-import Login from './Login/Login.container';
+import SuperLogin from './SuperLogin/SuperLogin.component';
 
 export {
-  Login
-}
+  SuperLogin,
+};
+
