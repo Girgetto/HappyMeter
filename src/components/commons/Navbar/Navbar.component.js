@@ -8,9 +8,11 @@ const renderProjects = (projects, setProject) =>
     </a>
   ));
 
-const Navbar = ({ className, user, setProject }) => (
+const Navbar = ({ className, user, setProject, reset }) => (
   <div className={className}>
-    Hi {user.name}!
+    <p onClick={() => reset()}>
+      Hi {user.name}!
+    </p>
     <div className="project_container">{renderProjects(projectsJson, setProject)}</div>
   </div>
 );

@@ -6,6 +6,7 @@ const user = handleActions(
   {
     [actions.setUser]: (state, { payload: { user: { email, role, id, name } } }) => ({ ...state, email, role, id, name }),
     [actions.setProject]: (state, { payload: { project } }) => ({ ...state, project }),
+    [actions.reset]: () => ({ initialState }),
   },
   initialState,
 );
