@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+.test {
+  font-family: 'Lato', sans-serif !important;
+  color: white;
+}
+
+.grande {
+  font-size: 2em;
+}
+
+.centerer {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #2f4858;
+}
+
+.mini {
+  font-size: 0.9em;
+}
+
+.bold {
+  font-family: 'Lato', sans-serif !important;
+  color: white;
+  font-weight: bold;
+  color: white;
+}
+
+.buttonLogin {
+  color: rgb(56, 56, 56);
+  font-family: 'Lato', sans-serif !important;
+  color: white;
+  background-color: #38fd9e;
+  width: 160px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  transition: all 0.4s ease-out 0s;
+}
+
+.buttonLogin:hover {
+  color: white;
+  background-color: #008fa0;
+  transform: scale(1.1);
+}
+
+.gray-text {
+  font-family: 'Lato', sans-serif !important;
+  color: white;
+  font-size: 1em;
+  display: block;
+  padding-bottom: 7px;
+}
