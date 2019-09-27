@@ -1,11 +1,4 @@
-import React from 'react'
+import styled from 'styled-components';
+import Login from './Login.component';
 
-const Login = () => {
-  return (
-    <div>
-      Login
-    </div>
-  )
-}
-
-export default Login
+export default styled(Login).attrs({})``;
